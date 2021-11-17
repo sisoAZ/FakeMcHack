@@ -20,7 +20,6 @@ async def on_message(message: discord.Message):
     if message.author.bot:
         return
     args = sort_args(message.content)
-    print(args)
     if args[0] != "-fakechat" and args[0] != "-fakehack":
         return
     #返信じゃなかったら
