@@ -1,7 +1,4 @@
-from PIL.ImageFont import ImageFont
 import discord
-from discord.message import Attachment
-import requests
 import os
 
 from util import sort_args
@@ -76,6 +73,5 @@ async def on_message(message: discord.Message):
         await message.channel.send(file=discord.File(imagePath))
         os.remove(imagePath)
         os.remove(attachmentFilePath)
-
 
 client.run("")
