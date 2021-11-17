@@ -9,3 +9,5 @@ python main.py
 -fakechat (text) + image file
 <br>
 -fakehack (wurst|pvp|vape) + image file
+<br>
+Image overlay size is 852 * 480
